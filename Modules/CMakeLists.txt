@@ -8,5 +8,6 @@ set(CMAKE_C_STANDARD 11) # C11 standard
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # add the executable
- add_executable(exception exception.cpp)
+add_executable(exception exception.cpp)
+add_executable(files files.cpp)
 
